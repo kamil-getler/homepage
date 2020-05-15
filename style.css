@@ -1,0 +1,38 @@
+body
+{
+text-align: center;
+background:#5c2f97;
+}
+a{
+    color:rgb(202, 218, 57);
+}
+h1{
+    text-shadow: 2px 2px rgb(212, 143, 233);
+    color:rgb(42, 102, 192);
+}
+section
+{
+color:rgb(0, 255, 221);
+}
+p
+{
+color:rgb(255, 255, 255);
+font-size: 20px;
+}
+.yellow-h
+{
+color:rgb(181, 184, 31);
+}
+.head-brown{
+    background-color:rgb(133, 72, 37);
+    padding: 15px;
+}
+header a{
+    color: rgb(223, 202, 208);
+    font-size:20px;
+    font-style: italic;
+}
+#notatki{
+    background-color:rgb(133, 72, 37);
+    
+}

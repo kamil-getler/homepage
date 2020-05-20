@@ -35,4 +35,7 @@ header a{
 #notatki{
     background-color:rgb(133, 72, 37);
     
+}.main{
+    max-width: 1000px;
+    margin: 0 auto;
 }

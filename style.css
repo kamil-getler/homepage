@@ -1,6 +1,14 @@
 body {
   text-align: center;
   background: #290e4d;
+  
+}
+.box{
+  background-color: rgb(49, 90, 121);
+  width:800px;
+  padding: 15px;
+  margin-top: 0px;
+  margin: auto;
 }
 .main {
   max-width: 1000px;
@@ -33,11 +41,7 @@ h1 {
 }
 
 h2 {
-  background-color: rgb(49, 90, 121);
-  width:800px;
-  padding: 15px;
-  margin: 0px;
-
+ 
 }
 section {
   color: rgb(0, 255, 221);

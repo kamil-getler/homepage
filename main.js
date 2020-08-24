@@ -7,4 +7,4 @@ console.log(
 
 const heading = document.querySelector('.head__brown--js');
 
-heading.innerHTML = `Witam Cię na stronie -- Nadawca JS ;)`;
+heading.innerHTML = `Witam Cię na stronie wiadomiść wysłąna z pliku main.js;)`;

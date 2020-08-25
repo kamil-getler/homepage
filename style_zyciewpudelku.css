@@ -1,3 +1,17 @@
 .display{
     background-color: lawngreen;
+    padding: 10px;
+    margin: 3px;
+}
+.display__inline{
+    background-color: lightcoral;
+    display: inline;
+    padding:10px;
+}
+.display__inline--block{
+    background-color: rgb(21, 15, 102);
+    display: inline-block;
+    padding:10px;
+    width: 100px;
+    height: 100px;
 }

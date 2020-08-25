@@ -10,7 +10,7 @@ body {
   float: left;
   margin: 5px;
 }
-.box_second {
+.box_second { 
   background: rgb(13, 53, 112);
   width: 70px;
   height: 30px;
@@ -20,8 +20,6 @@ body {
   margin: 5px;
   float: left;
   text-decoration: none;
-  
-  
 }
 .box_img {
   width: 50%;
@@ -29,12 +27,12 @@ body {
   display: inline-block;
   float: left;
 }
-.box_gitk{
-width: 50%;
-border-radius: 3px;
-background: rgb(67, 190, 9);
+.box_gitk {
+  width: 50%;
+  border-radius: 3px;
+  background: rgb(67, 190, 9);
 }
-.box_gitk--save{
+.box_gitk--save {
   width: 50%;
   border-radius: 4px;
   background-color: rgb(196, 85, 107);
@@ -59,7 +57,7 @@ background: rgb(67, 190, 9);
   background-color: rgb(0, 85, 35);
   color: rgb(148, 168, 31);
 }
-a{
+a {
   color: rgb(245, 239, 239);
   text-decoration: none;
 }
@@ -89,15 +87,14 @@ header a {
   margin: 10px;
 }
 
-ul{
+ul {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding:40px;
+  padding: 40px;
   text-align: left;
 }
-.git_border
-{
+.git_border {
   padding: 3px;
-  border-style:solid;
+  border-style: solid;
 }
 .footer {
   font-size: 5px;

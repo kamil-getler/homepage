@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    color: honeydew;
+}
+
+.loyaut {
+    display: grid;
+    grid-template-areas: 'head head' 'conten news' 'footer footer';
+    grid-template-rows: 100px 300px;
+    grid-gap: 5px;
+}
+
+.head {
+    grid-area: head;
+    background-color: rgb(211, 189, 189);
+}
+
+.content {
+    grid-area: conten;
+    background-color: rgb(173, 42, 42);
+}
+
+.news {
+    grid-area: news;
+    background-color: rgb(12, 80, 40);
+}
+
+.footer {
+    grid-area: footer;
+    border-top: 2px solid green;
+}

@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 15px;
+}
+
+.grid__item {
+    background-color: crimson;
+}
+
+.grid-one {
+    display: grid;
+    grid-template-areas: "head head" "news conten" "footer footer";
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: minmax(100px 1000px);
+    grid-gap: 5px;
+}
+
+.head-grid--index {
+    grid-area: head;
+    background-color: rgb(244, 250, 246);
+    margin: 20px;
+}
+
+.head-grid {
+    grid-area: head;
+    background-color: rgb(14, 99, 42);
+}
+
+.news-grid {
+    grid-area: news;
+    background-color: rgb(14, 99, 42);
+    border-radius: 14px;
+}
+
+.content-grid {
+    grid-area: conten;
+    background-color: rgb(14, 99, 42);
+    border-radius: 14px;
+}
+
+.footer-grid {
+    grid-area: footer;
+    background-color: rgb(217, 230, 221)21);
+    border-radius: 14px;
+    border: 1px solid rgb(0, 5, 5);
+}

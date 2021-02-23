@@ -57,9 +57,9 @@ button.addEventListener('click', () => {
     head.classList.toggle('klasa-z-js');
 });
 
-const hamburger = documnet.querySelector('.hamburger--js');
+const hamburger = document.querySelector('.hamburger--js');
 
 hamburger.addEventListener('click', () => {
     const nav = document.querySelector('.navigation--js');
-    nav.classList.toggle('.navigation--open');
+    nav.classList.toggle('navigation--open');
 });

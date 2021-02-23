@@ -63,7 +63,15 @@ body {
     background-color: crimson;
 }
 
-.head-grid--index {
+.grid_one {
+    display: grid;
+    grid-template-areas: "head head" "news conten" "footer footer";
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 1fr 4fr 50px;
+    grid-gap: 2px;
+}
+
+.head-grid {
     grid-area: head;
     background-color: rgb(244, 250, 246);
     margin: 20px;
@@ -88,6 +96,10 @@ body {
     border: 1px solid rgb(0, 5, 5);
 }
 
+.flex {
+    display: flex;
+}
+
 .navigation {
     background-color: rgb(63, 62, 153);
     padding: 15px;
@@ -100,11 +112,11 @@ body {
 .navigation__link {
     background-color: rgb(3, 24, 51);
     color: rgb(206, 238, 26);
-    display: inline;
     padding: 10px 30px;
     border-radius: 5px;
     border: 1px solid rgb(197, 197, 4);
     text-decoration: none;
+    display: block;
 }
 
 .navigation__link--maker {
@@ -143,7 +155,7 @@ p {
 }
 
 .head-brown {
-    background-color: rgb(15, 1, 29);
+    background-color: rgb(24, 114, 173);
     padding: 15px;
 }
 
@@ -174,12 +186,13 @@ main {
     position: fixed;
     top: 0;
     width: 100%;
-    min-height: 50px;
+    min-height: 60px;
     background-color: burlywood;
 }
 
 .header_two {
-    margin: 10px;
+    width: 100%;
+    background-color: cadetblue;
 }
 
 header a {
@@ -223,23 +236,17 @@ ul {
     background-color: brown;
 }
 
-@media screen and (min-width: 769px) {
-    body {
-        max-width: 100vw;
-    }
-    .grid-one {
-        display: grid;
-        grid-template-areas: 'head head' 'news conten' 'footer footer';
-        grid-template-columns: 1fr 200px;
-        grid-template-rows: 1fr 4fr 50px;
-        grid-gap: 2px;
+@media screen and (min-width: 425px) {
+    .hamburger {
+        display: none;
     }
 }
 
-@media screen and (max-width: 458px) {
-    .navigation__link {
-        display: block;
+;
+@media screen and (min-width: 486px) {
+    .navigation {
+        display: inline-block;
     }
 }
 
-@media screen and (min-width: 458px) {}
+;
